@@ -1,0 +1,93 @@
+html, body {
+    /* height: 100%; */
+    margin: 0;
+    font-family: calibri;
+    /* background-color: #38a6f0; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    margin: 20px 0;
+    background-color: #fff; 
+    box-shadow: 0 0 10px #8a8989;
+    padding: 20px;
+    max-width: 680px;
+}
+
+.semester {
+    text-align: center;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#student-info {
+    margin-bottom: 10px;
+}
+
+#info-table {
+    /* width: 100%; */
+    border-collapse: collapse;
+}
+
+#info-table th, #info-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#info-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#gp {
+    text-align: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    #result {
+        margin: 10px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    #info-table th, #info-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .semester {
+        font-size: 1.2em;
+    }
+
+    #student-info h3 {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+}
+
+/* For smaller mobile screens */
+@media (max-width: 480px) {
+    #info-table th, #info-table td {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    #result {
+        padding: 10px;
+    }
+
+    .semester {
+        font-size: 1em;
+    }
+
+    #gp {
+        font-size: 1em;
+    }
+}
