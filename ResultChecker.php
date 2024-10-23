@@ -2,7 +2,7 @@
 class ResultChecker
 {
     public $link;
-    public function __construct($dbname, $host = "localhost", $username = "root", $password = "")
+    public function __construct($dbname, $host = "127.0.0.1", $username = "root", $password = "")
     {
         $this->link = mysqli_connect($host, $username, $password); // we're using $this->link bcoz we've already declared link as public
         $this->createDb($dbname);

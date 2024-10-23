@@ -3,7 +3,7 @@ ob_start();
 session_start();
 require_once("ResultChecker.php");
 
-$rc = new ResultChecker("ResultChecker", "localhost", "root", "");
+$rc = new ResultChecker("ResultChecker", "127.0.0.1", "root", "");
 
 $sql = "CREATE TABLE IF NOT EXISTS pin_table(
     sn INT AUTO_INCREMENT PRIMARY KEY,
