@@ -50,7 +50,7 @@ The Result Checker Website allows students to check their academic results for a
 <h2> <b> Setup Instructions </b> </h2>
 
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your laptop/systemlaptop, system or computer by running this:
   - git clone https://github.com/Temitope1606/ResultChecker.git
 2. Set up the database:
   - Make sure you have XAMPP or WAMP running.
