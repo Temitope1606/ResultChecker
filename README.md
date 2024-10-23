@@ -22,15 +22,15 @@ The Result Checker Website allows students to check their academic results for a
 
 <h2> <b> Project Structure </b> </h2>
 
-1. index.php: The homepage where users can input necessary information to purchase pin.
-2. pin.php: The page where users will see the purchased pin after successful payment.
-3. login.php: The page where users can enter the purchased pin to check their result.
-4. result.php: The page where the users result will be displayed.
-5. ResultChecker.php: This file contains the necessary php functions and also database connection.
-6. Auth.php: This file contains the codes for authentication like creating database, tables.
-7. styles.css: Contains the styling files for the home page.
-8. result.css: Contains the styling files for the result page.
-9. Dockerfile: This file contains the instructions to create a Docker image for the project
+- <b> index.php: </b> The homepage where users can input necessary information to purchase pin.
+- <b> pin.php: </b> The page where users will see the purchased pin after successful payment.
+- <b> login.php: </b> The page where users can enter the purchased pin to check their result.
+- <b> result.php: </b> The page where the users result will be displayed.
+- <b> ResultChecker.php: </b> This file contains the necessary php functions and also database connection.
+- <b> Auth.php: </b> This file contains the codes for authentication like creating database, tables.
+- <b> styles.css: </b> Contains the styling files for the home page.
+- <b> result.css: </b> Contains the styling files for the result page.
+- <b> Dockerfile: </b> This file contains the instructions to create a Docker image for the project
 
 <h2> <b> Screenshots </b> </h2>
 
