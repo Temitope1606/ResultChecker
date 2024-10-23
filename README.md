@@ -6,6 +6,7 @@ The Result Checker Website allows students to check their academic results for a
 
 <h2> <b> Features </b> </h2>
 
+
 1. Pin Purchase: Users can buy a pin to check their results.
 2. Result Retrieval: After entering the purchased pin, users can view their academic results for a particular semester.
 3. Database Integration: Results are stored in a database and retrieved securely using the provided pin.
@@ -13,12 +14,14 @@ The Result Checker Website allows students to check their academic results for a
 
 <h2> <b> Technologies Used </b> </h2>
 
+
 1. HTML5 for structure
 2. CSS3 for styling
 3. PHP for server-side logic and database handling
 4. MySQL (via XAMPP for the local database)
 
 <h2> <b> Project Structure </b> </h2>
+
 1. index.php: The homepage where users can input necessary information to purchase pin.
 2. pin.php: The page where users will see the purchased pin after successful payment.
 3. login.php: The page where users can enter the purchased pin to check their result.
@@ -30,6 +33,7 @@ The Result Checker Website allows students to check their academic results for a
 9. Dockerfile: This file contains the instructions to create a Docker image for the project
 
 <h2> <b> Screenshots </b> </h2>
+
 
 1. Homepage
 - ![Homepage Screenshot](screenshots/1..jpg)
@@ -45,6 +49,7 @@ The Result Checker Website allows students to check their academic results for a
 
 <h2> <b> Setup Instructions </b> </h2>
 
+
 1. Clone the repository to your local machine:
   - git clone https://github.com/Temitope1606/ResultChecker.git
 2. Set up the database:
@@ -57,4 +62,5 @@ The Result Checker Website allows students to check their academic results for a
   - localhost/foldername/index.php
 
 <h2> <b> Future Improvements </b> </h2>
+
 - Email Notifications: Automatically send results to students via email after checking.
