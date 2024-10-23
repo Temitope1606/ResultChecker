@@ -15,10 +15,10 @@ The Result Checker Website allows students to check their academic results for a
 <h2> <b> Technologies Used </b> </h2>
 
 
-1. HTML5 for structure
-2. CSS3 for styling
-3. PHP for server-side logic and database handling
-4. MySQL (via XAMPP for the local database)
+1. <b> HTML5 </b> for structure
+2. <b> CSS3 </b> for styling
+3. <b> PHP </b> for server-side logic and database handling
+4. <b> MySQL </b> (via <b> XAMPP </b> for the local database)
 
 <h2> <b> Project Structure </b> </h2>
 
