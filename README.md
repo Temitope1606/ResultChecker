@@ -7,10 +7,10 @@ The Result Checker Website allows students to check their academic results for a
 # Features
 
 
-1. Pin Purchase: Users can buy a pin to check their results.
-2. Result Retrieval: After entering the purchased pin, users can view their academic results for a particular semester.
-3. Database Integration: Results are stored in a database and retrieved securely using the provided pin.
-4. Session and Semester Selection: Allows users to select the specific session and semester for their results.
+1. **Pin Purchase:** Users can buy a pin to check their results.
+2. **Result Retrieval:** After entering the purchased pin, users can view their academic results for a particular semester.
+3. **Database Integration:** Results are stored in a database and retrieved securely using the provided pin.
+4. **Session and Semester Selection:** Allows users to select the specific session and semester for their results.
 
 # Technologies Used
 
@@ -18,7 +18,7 @@ The Result Checker Website allows students to check their academic results for a
 1. **HTML5** for structure
 2. **CSS3** for styling
 3. **PHP** for server-side logic and database handling
-4. **MySQL** (via <b> XAMPP** for the local database)
+4. **MySQL** (via **XAMPP** for the local database)
 
 # Project Structure
 
