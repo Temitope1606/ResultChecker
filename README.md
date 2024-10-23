@@ -1,24 +1,24 @@
-<b> Result Checker Website </b>
+<h1> <b> Result Checker Website </b> </h1>
 
-Project Overview
+<h2> <b> Project Overview </b> </h2>
 
 The Result Checker Website allows students to check their academic results for a specific semester in a session by purchasing a unique pin. The website interacts with a database to verify the pin and retrieve the student's results if available.
 
-Features
+<h2> <b> Features </b> </h2>
 
 1. Pin Purchase: Users can buy a pin to check their results.
 2. Result Retrieval: After entering the purchased pin, users can view their academic results for a particular semester.
 3. Database Integration: Results are stored in a database and retrieved securely using the provided pin.
 4. Session and Semester Selection: Allows users to select the specific session and semester for their results.
 
-Technologies Used
+<h2> <b> Technologies Used </b> </h2>
 
 1. HTML5 for structure
 2. CSS3 for styling
 3. PHP for server-side logic and database handling
 4. MySQL (via XAMPP for the local database)
 
-Project Structure
+<h2> <b> Project Structure </b> </h2>
 1. index.php: The homepage where users can input necessary information to purchase pin.
 2. pin.php: The page where users will see the purchased pin after successful payment.
 3. login.php: The page where users can enter the purchased pin to check their result.
@@ -29,7 +29,7 @@ Project Structure
 8. result.css: Contains the styling files for the result page.
 9. Dockerfile: This file contains the instructions to create a Docker image for the project
 
-Screenshots
+<h2> <b> Screenshots </b> </h2>
 
 1. Homepage
 - ![Homepage Screenshot](screenshots/1..jpg)
@@ -43,7 +43,7 @@ Screenshots
 4. Result Page
 - ![Resultpage Screenshot](screenshots/4..jpg)
 
-Setup Instructions
+<h2> <b> Setup Instructions </b> </h2>
 
 1. Clone the repository to your local machine:
   - git clone https://github.com/Temitope1606/ResultChecker.git
@@ -56,5 +56,5 @@ Setup Instructions
   - Run this on your browser:
   - localhost/foldername/index.php
 
-Future Improvements
+<h2> <b> Future Improvements </b> </h2>
 - Email Notifications: Automatically send results to students via email after checking.
